@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Luna the Cat — Professional Nap Expert & Mouse Hunter. View portfolio, skills, and services.">
+  <title>Luna 🐾 | Cat Portfolio</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== LOADING SCREEN ========== -->
+  <div id="loader" class="loader-screen" aria-hidden="true">
+    <div class="loader-content text-center">
+      <div class="loader-paw">
+        <img src="assets/icons/paw.svg" alt="" width="64" height="64">
+      </div>
+      <p class="loader-text mt-3">Waking up Luna...</p>
+      <div class="loader-bar">
+        <div class="loader-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#hero">
+        <img src="assets/icons/paw.svg" alt="" width="28" height="28" class="me-2">
+        Luna<span class="text-accent">.</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+              aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Reviews</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-accent btn-sm px-3" href="#contact">Hire Luna</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <header id="hero" class="hero-section d-flex align-items-center">
+    <!-- Floating decorative elements -->
+    <div class="floating-elements" aria-hidden="true">
+      <span class="float-item float-1">🐾</span>
+      <span class="float-item float-2">✨</span>
+      <span class="float-item float-3">🐟</span>
+      <span class="float-item float-4">🧶</span>
+      <span class="float-item float-5">💤</span>
+      <span class="float-item float-6">🐾</span>
+    </div>
+
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 order-lg-1 order-2">
+          <div class="hero-content fade-in">
+            <span class="hero-badge">Available for cuddles</span>
+            <h1 class="hero-title">Hello, I'm Luna <span class="wave">🐾</span></h1>
+            <p class="hero-subtitle">Professional Nap Expert &amp; Mouse Hunter</p>
+            <p class="hero-desc">
+              Based in sunny windowsills worldwide. I specialize in premium lounging,
+              strategic toy destruction, and making every human feel chosen.
+            </p>
+            <div class="hero-buttons d-flex flex-wrap gap-3">
+              <a href="#portfolio" class="btn btn-accent btn-lg px-4">View Portfolio</a>
+              <a href="#contact" class="btn btn-outline-light btn-lg px-4">Contact Me</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-2 order-1 text-center">
+          <div class="hero-image-wrapper fade-in">
+            <div class="hero-image-ring"></div>
+            <img
+              src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&h=600&fit=crop&crop=face"
+              alt="Luna the cat — a beautiful orange tabby looking at the camera"
+              class="hero-image img-fluid"
+              width="480"
+              height="480"
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-indicator" aria-label="Scroll to about section">
+      <i class="bi bi-chevron-double-down"></i>
+    </a>
+  </header>
+
+  <main>
+
+    <!-- ========== ABOUT ME ========== -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center fade-in">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Meet the Feline Behind the Fame</h2>
+          <p class="section-desc mx-auto">
+            A short introduction to the fluffiest member of your household dreams.
+          </p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="profile-card fade-in">
+              <div class="row g-0 align-items-center">
+                <div class="col-md-4 text-center p-4">
+                  <img
+                    src="https://images.unsplash.com/photo-1574158622682-e40e69881006?w=300&h=300&fit=crop&crop=face"
+                    alt="Luna profile photo"
+                    class="profile-avatar rounded-circle img-fluid"
+                    width="200"
+                    height="200"
+                  >
+                </div>
+                <div class="col-md-8 p-4 p-md-5">
+                  <h3 class="profile-name">Luna Whiskers</h3>
+                  <ul class="profile-details list-unstyled">
+                    <li><strong>Age:</strong> 4 years (28 in cat years)</li>
+                    <li><strong>Breed:</strong> Domestic Shorthair — Orange Tabby</li>
+                    <li><strong>Favorite Food:</strong> Tuna flakes &amp; salmon pâté</li>
+                    <li><strong>Personality:</strong> Curious, cuddly, dramatically hungry</li>
+                  </ul>
+                  <p class="profile-story mb-0">
+                    Rescued from a rainy alley in 2021, Luna quickly claimed the coziest blanket
+                    in the house and never looked back. She spends her days perfecting the art of
+                    the slow blink, supervising kitchen activity, and occasionally granting humans
+                    the honor of belly rubs (terms and conditions apply).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section id="skills" class="section-padding section-alt">
+      <div class="container">
+        <div class="section-header text-center fade-in">
+          <span class="section-tag">Skills</span>
+          <h2 class="section-title">Paw-fessional Expertise</h2>
+          <p class="section-desc mx-auto">
+            Years of practice, zero regrets, maximum purrs.
+          </p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <!-- Each skill bar animates when scrolled into view -->
+            <div class="skill-item fade-in" data-skill="100">
+              <div class="d-flex justify-content-between mb-2">
+                <span class="skill-label">Sleeping</span>
+                <span class="skill-percent">0%</span>
+              </div>
+              <div class="progress skill-progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="skill-item fade-in" data-skill="95">
+              <div class="d-flex justify-content-between mb-2">
+                <span class="skill-label">Jumping</span>
+                <span class="skill-percent">0%</span>
+              </div>
+              <div class="progress skill-progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="skill-item fade-in" data-skill="999">
+              <div class="d-flex justify-content-between mb-2">
+                <span class="skill-label">Cuteness</span>
+                <span class="skill-percent">0%</span>
+              </div>
+              <div class="progress skill-progress">
+                <div class="progress-bar progress-bar-special" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="skill-item fade-in" data-skill="85">
+              <div class="d-flex justify-content-between mb-2">
+                <span class="skill-label">Hunting</span>
+                <span class="skill-percent">0%</span>
+              </div>
+              <div class="progress skill-progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="skill-item fade-in" data-skill="100">
+              <div class="d-flex justify-content-between mb-2">
+                <span class="skill-label">Ignore Humans</span>
+                <span class="skill-percent">0%</span>
+              </div>
+              <div class="progress skill-progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PORTFOLIO GALLERY ========== -->
+    <section id="portfolio" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center fade-in">
+          <span class="section-tag">Portfolio</span>
+          <h2 class="section-title">Life in Pictures</h2>
+          <p class="section-desc mx-auto">
+            Adventures, naps, and outdoor explorations — curated by Luna herself.
+          </p>
+        </div>
+
+        <!-- Filter tabs (visual only, shows all) -->
+        <div class="portfolio-filters text-center mb-4 fade-in">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="adventure">Adventures</button>
+          <button class="filter-btn" data-filter="sleeping">Sleeping</button>
+          <button class="filter-btn" data-filter="outdoor">Outdoor</button>
+        </div>
+
+        <div class="row g-4" id="galleryGrid">
+          <!-- Adventure -->
+          <div class="col-sm-6 col-lg-4 gallery-item fade-in" data-category="adventure">
+            <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#imageModal"
+                 data-img="https://images.unsplash.com/photo-1495360010541-f48722b34f7d?w=800&h=600&fit=crop"
+                 data-title="Box Explorer"
+                 data-desc="Luna discovered a new cardboard kingdom and immediately claimed it as her throne.">
+              <img src="https://images.unsplash.com/photo-1495360010541-f48722b34f7d?w=400&h=300&fit=crop" alt="Cat sitting inside a cardboard box" class="gallery-img" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category">Adventure</span>
+                <h4>Box Explorer</h4>
+                <i class="bi bi-zoom-in"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 gallery-item fade-in" data-category="adventure">
+            <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#imageModal"
+                 data-img="https://images.unsplash.com/photo-1513245543132-31f507417b26?w=800&h=600&fit=crop"
+                 data-title="Shelf Surveillance"
+                 data-desc="Conducting a thorough inspection of the top bookshelf. Nothing escapes Luna's gaze.">
+              <img src="https://images.unsplash.com/photo-1513245543132-31f507417b26?w=400&h=300&fit=crop" alt="Cat perched on a high shelf" class="gallery-img" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category">Adventure</span>
+                <h4>Shelf Surveillance</h4>
+                <i class="bi bi-zoom-in"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sleeping -->
+          <div class="col-sm-6 col-lg-4 gallery-item fade-in" data-category="sleeping">
+            <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#imageModal"
+                 data-img="https://images.unsplash.com/photo-1592194996308-7fd438d27212?w=800&h=600&fit=crop"
+                 data-title="Sunbeam Nap"
+                 data-desc="The perfect patch of afternoon sunlight. Luna's favorite time of day.">
+              <img src="https://images.unsplash.com/photo-1592194996308-7fd438d27212?w=400&h=300&fit=crop" alt="Sleeping cat in warm sunlight" class="gallery-img" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category">Sleeping</span>
+                <h4>Sunbeam Nap</h4>
+                <i class="bi bi-zoom-in"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 gallery-item fade-in" data-category="sleeping">
+            <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#imageModal"
+                 data-img="https://images.unsplash.com/photo-1529773477824-f927a840a2ce?w=800&h=600&fit=crop"
+                 data-title="Couch Potato Mode"
+                 data-desc="Four hours of uninterrupted snoozing. A personal best.">
+              <img src="https://images.unsplash.com/photo-1529773477824-f927a840a2ce?w=400&h=300&fit=crop" alt="Cat sleeping curled up on a couch" class="gallery-img" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category">Sleeping</span>
+                <h4>Couch Potato Mode</h4>
+                <i class="bi bi-zoom-in"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Outdoor -->
+          <div class="col-sm-6 col-lg-4 gallery-item fade-in" data-category="outdoor">
+            <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#imageModal"
+                 data-img="https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=800&h=600&fit=crop"
+                 data-title="Garden Patrol"
+                 data-desc="Supervising the backyard from the safety of the patio.">
+              <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=400&h=300&fit=crop" alt="Cat sitting outdoors in a garden" class="gallery-img" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category">Outdoor</span>
+                <h4>Garden Patrol</h4>
+                <i class="bi bi-zoom-in"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 gallery-item fade-in" data-category="outdoor">
+            <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#imageModal"
+                 data-img="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=800&h=600&fit=crop"
+                 data-title="Window Watcher"
+                 data-desc="Bird TV is on. Luna is fully invested in the episode.">
+              <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=400&h=300&fit=crop" alt="Cat looking out a window at birds" class="gallery-img" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category">Outdoor</span>
+                <h4>Window Watcher</h4>
+                <i class="bi bi-zoom-in"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE TIMELINE ========== -->
+    <section id="experience" class="section-padding section-alt">
+      <div class="container">
+        <div class="section-header text-center fade-in">
+          <span class="section-tag">Experience</span>
+          <h2 class="section-title">A Paw-some Journey</h2>
+          <p class="section-desc mx-auto">
+            Key milestones in Luna's rise to household royalty.
+          </p>
+        </div>
+
+        <div class="timeline fade-in">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2022</span>
+              <h4>Learned Hunting</h4>
+              <p>Mastered the art of stalking laser dots and ambushing unsuspecting shoelaces with deadly precision.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2023</span>
+              <h4>Became House King</h4>
+              <p>Officially claimed every soft surface in the home. The dog now sleeps on the floor.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2024</span>
+              <h4>Social Media Star</h4>
+              <p>One viral yawning video later, Luna gained 10K followers who adore her daily nap updates.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2025</span>
+              <h4>Certified Nap Specialist</h4>
+              <p>Awarded honorary certification for 999+ documented naps and zero missed sunbeam opportunities.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <section id="services" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center fade-in">
+          <span class="section-tag">Services</span>
+          <h2 class="section-title">What Luna Offers</h2>
+          <p class="section-desc mx-auto">
+            Premium feline services for discerning humans.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-sm-6 col-lg-3 fade-in">
+            <div class="service-card h-100 text-center">
+              <div class="service-icon">
+                <i class="bi bi-bullseye"></i>
+              </div>
+              <h4>Mouse Removal</h4>
+              <p>Swift, silent, and surprisingly effective — even if the mouse is imaginary.</p>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3 fade-in">
+            <div class="service-card h-100 text-center">
+              <div class="service-icon">
+                <i class="bi bi-emoji-smile"></i>
+              </div>
+              <h4>Mood Improvement</h4>
+              <p>One head bump and a slow blink can turn any bad day into a good one.</p>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3 fade-in">
+            <div class="service-card h-100 text-center">
+              <div class="service-icon">
+                <i class="bi bi-moon-stars"></i>
+              </div>
+              <h4>Sleep Coaching</h4>
+              <p>Learn the secrets of 16-hour sleep cycles from a true professional.</p>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3 fade-in">
+            <div class="service-card h-100 text-center">
+              <div class="service-icon">
+                <i class="bi bi-mic"></i>
+              </div>
+              <h4>Professional Meowing</h4>
+              <p>3 AM concerts tailored to your specific annoyance level. Encore guaranteed.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section id="testimonials" class="section-padding section-alt">
+      <div class="container">
+        <div class="section-header text-center fade-in">
+          <span class="section-tag">Testimonials</span>
+          <h2 class="section-title">What Clients Say</h2>
+          <p class="section-desc mx-auto">
+            Real reviews from humans who were lucky enough to be chosen.
+          </p>
+        </div>
+
+        <!-- Bootstrap Carousel -->
+        <div id="testimonialCarousel" class="carousel slide fade-in" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Review 1"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Review 2"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Review 3"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonial-card mx-auto">
+                <div class="stars mb-3">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="testimonial-text">
+                  "Luna completely transformed our home. The mouse situation is under control
+                  (we think), and our stress levels dropped the moment she sat on our laps."
+                </p>
+                <div class="testimonial-author">
+                  <strong>Sarah M.</strong>
+                  <span>Homeowner &amp; Treat Provider</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="testimonial-card mx-auto">
+                <div class="stars mb-3">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="testimonial-text">
+                  "Her sleep coaching changed my life. I still can't nap 16 hours, but I appreciate
+                  the effort. Also, the 3 AM meowing builds character."
+                </p>
+                <div class="testimonial-author">
+                  <strong>James K.</strong>
+                  <span>Light Sleeper &amp; Loyal Servant</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="testimonial-card mx-auto">
+                <div class="stars mb-3">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </div>
+                <p class="testimonial-text">
+                  "We hired Luna for mood improvement and she delivered. She only knocked two
+                  things off the shelf. Would recommend with minor caveats."
+                </p>
+                <div class="testimonial-author">
+                  <strong>Emily R.</strong>
+                  <span>Interior Design Enthusiast</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== STATISTICS ========== -->
+    <section id="stats" class="stats-section section-padding">
+      <div class="container">
+        <div class="row g-4 text-center">
+          <div class="col-md-4 fade-in">
+            <div class="stat-card">
+              <div class="stat-icon"><i class="bi bi-moon-fill"></i></div>
+              <h3 class="stat-number" data-target="999">0</h3>
+              <span class="stat-suffix">+</span>
+              <p class="stat-label">Naps Taken</p>
+            </div>
+          </div>
+          <div class="col-md-4 fade-in">
+            <div class="stat-card">
+              <div class="stat-icon"><i class="bi bi-balloon-fill"></i></div>
+              <h3 class="stat-number" data-target="250">0</h3>
+              <p class="stat-label">Toys Destroyed</p>
+            </div>
+          </div>
+          <div class="col-md-4 fade-in">
+            <div class="stat-card">
+              <div class="stat-icon"><i class="bi bi-heart-fill"></i></div>
+              <h3 class="stat-number" data-target="10">0</h3>
+              <span class="stat-suffix">K</span>
+              <p class="stat-label">Followers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center fade-in">
+          <span class="section-tag">Contact</span>
+          <h2 class="section-title">Get in Touch</h2>
+          <p class="section-desc mx-auto">
+            Want to hire Luna or just send treats? Drop a message below.
+          </p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <form id="contactForm" class="contact-form fade-in" novalidate>
+              <div class="mb-3">
+                <label for="contactName" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="contactName" placeholder="e.g. Sarah" required minlength="2">
+                <div class="invalid-feedback">Please enter your name (at least 2 characters).</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="contactEmail" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="contactEmail" placeholder="you@example.com" required>
+                <div class="invalid-feedback">Please enter a valid email address.</div>
+              </div>
+
+              <div class="mb-4">
+                <label for="contactMessage" class="form-label">Message</label>
+                <textarea class="form-control" id="contactMessage" rows="5" placeholder="Tell Luna about your project..." required minlength="10"></textarea>
+                <div class="invalid-feedback">Please write a message (at least 10 characters).</div>
+              </div>
+
+              <button type="submit" class="btn btn-accent btn-lg w-100">Send Message 🐾</button>
+
+              <!-- Success message (hidden by default) -->
+              <div id="formSuccess" class="alert alert-success mt-3 d-none" role="alert">
+                <i class="bi bi-check-circle-fill me-2"></i>
+                Message sent! Luna will respond after her nap (approximately 4 hours).
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row align-items-center gy-4">
+        <div class="col-md-4 text-center text-md-start">
+          <a class="footer-brand fw-bold" href="#hero">
+            <img src="assets/icons/paw.svg" alt="" width="24" height="24" class="me-2">
+            Luna<span class="text-accent">.</span>
+          </a>
+          <p class="footer-tagline mt-2 mb-0">Professional Nap Expert since 2021</p>
+        </div>
+
+        <div class="col-md-4 text-center">
+          <div class="social-icons">
+            <a href="#" aria-label="Instagram" class="social-link"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="Twitter" class="social-link"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" aria-label="YouTube" class="social-link"><i class="bi bi-youtube"></i></a>
+            <a href="#" aria-label="TikTok" class="social-link"><i class="bi bi-tiktok"></i></a>
+          </div>
+        </div>
+
+        <div class="col-md-4 text-center text-md-end">
+          <p class="copyright mb-0">&copy; 2025 Luna Whiskers. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- ========== IMAGE PREVIEW MODAL ========== -->
+  <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <h5 class="modal-title" id="imageModalLabel">Photo</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-0">
+          <img src="" alt="" id="modalImage" class="img-fluid w-100">
+        </div>
+        <div class="modal-footer border-0 flex-column align-items-start">
+          <p id="modalDesc" class="mb-0 text-muted"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
